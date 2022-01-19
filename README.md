@@ -10,5 +10,5 @@ ffmpeg -i video.mp4 -i logo.png -filter_complex "[1]format=rgba,colorchannelmixe
 
 
 # After!
-[after](video_tag.gif)
+![after](video_tag.gif)
 
