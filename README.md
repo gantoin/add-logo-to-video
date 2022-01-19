@@ -1,4 +1,4 @@
-# add-logo-to-video
+# Add your logo on video !
 How to easily tag a video with your logo via a simple ffmpeg command
 
 ```bash
@@ -6,9 +6,9 @@ ffmpeg -i video.mp4 -i logo.png -filter_complex "[1]format=rgba,colorchannelmixe
 ```
 
 # Before
-![Alt Text](video.gif)
+![before](video.gif)
 
 
 # After!
-[Alt Text](video-tag.gif)
+[after](video_tag.gif)
 
